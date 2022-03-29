@@ -13,7 +13,7 @@ struct FetchedResultsListEditModeIssueApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BookList()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		737A239127F2CD01007390EC /* FetchedResultsListEditModeIssueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737A239027F2CD01007390EC /* FetchedResultsListEditModeIssueApp.swift */; };
-		737A239327F2CD01007390EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737A239227F2CD01007390EC /* ContentView.swift */; };
+		737A239327F2CD01007390EC /* BookList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737A239227F2CD01007390EC /* BookList.swift */; };
 		737A239527F2CD07007390EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 737A239427F2CD07007390EC /* Assets.xcassets */; };
 		737A239827F2CD07007390EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 737A239727F2CD07007390EC /* Preview Assets.xcassets */; };
 		737A239A27F2CD07007390EC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737A239927F2CD07007390EC /* Persistence.swift */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		737A238D27F2CD01007390EC /* FetchedResultsListEditModeIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchedResultsListEditModeIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		737A239027F2CD01007390EC /* FetchedResultsListEditModeIssueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedResultsListEditModeIssueApp.swift; sourceTree = "<group>"; };
-		737A239227F2CD01007390EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		737A239227F2CD01007390EC /* BookList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookList.swift; sourceTree = "<group>"; };
 		737A239427F2CD07007390EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		737A239727F2CD07007390EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		737A239927F2CD07007390EC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				737A239027F2CD01007390EC /* FetchedResultsListEditModeIssueApp.swift */,
-				737A239227F2CD01007390EC /* ContentView.swift */,
+				737A239227F2CD01007390EC /* BookList.swift */,
 				737A239427F2CD07007390EC /* Assets.xcassets */,
 				737A239927F2CD07007390EC /* Persistence.swift */,
 				737A239B27F2CD07007390EC /* FetchedResultsListEditModeIssue.xcdatamodeld */,
@@ -145,7 +145,7 @@
 			files = (
 				737A239A27F2CD07007390EC /* Persistence.swift in Sources */,
 				737A239D27F2CD07007390EC /* FetchedResultsListEditModeIssue.xcdatamodeld in Sources */,
-				737A239327F2CD01007390EC /* ContentView.swift in Sources */,
+				737A239327F2CD01007390EC /* BookList.swift in Sources */,
 				737A239127F2CD01007390EC /* FetchedResultsListEditModeIssueApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
